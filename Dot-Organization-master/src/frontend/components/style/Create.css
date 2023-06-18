@@ -1,0 +1,42 @@
+#Head{
+    margin-bottom: 100px;
+}
+
+#left{
+    margin-right: 20px;
+}
+
+#right{
+    margin-left: 20px;
+}
+
+#NFTIcon{
+    size: 40px;
+    vertical-align: middle;
+    max-width: 100%;
+    position: relative;
+    right: 150px;
+    top: -70px;
+    animation: arrows-alt 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+
+@keyframes arrows-alt {
+	0% {
+		transform:  translate(0, 0);
+	}
+	20% {
+		transform:  translate(-5px, 5px);
+	}
+	40% {
+		transform:  translate(-5px, -5px);
+	}
+	60% {
+		transform:  translate(5px, 5px);
+	}
+	80% {
+		transform:  translate(5px, -5px);
+	}
+	100% {
+		transform:  translate(0, 0);
+	}
+}

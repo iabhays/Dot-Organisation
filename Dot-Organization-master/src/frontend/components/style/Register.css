@@ -1,0 +1,5 @@
+.containerRegister{
+    margin: 90px;
+    background-image: radial-gradient(rgba(115, 0, 255, 0.201), rgba(190, 0, 180, 0.3), rgba(0, 201, 242, 0.355));
+    border-radius: 50%;
+}
